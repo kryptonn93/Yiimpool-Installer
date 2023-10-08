@@ -6,7 +6,7 @@
 # Updated by Afiniel for Yiimpool use...
 # This script is intended to be run like this:
 #
-#   curl https://raw.githubusercontent.com/Afiniel-tech/Yiimpool-Installer/master/bootstrap.sh | bash
+#   curl https://raw.githubusercontent.com/kryptonn93/Yiimpool-Installer/master/bootstrap.sh | bash
 
 #
 #########################################################
@@ -29,7 +29,7 @@ if [ ! -d $HOME/yiimpool ]; then
 	echo Downloading Yiimpool Installer ${TAG}. . .
 	git clone \
 		-b ${TAG} --depth 1 \
-		https://github.com/Afiniel-tech/yiimpool_setup \
+		https://github.com/kryptonn93/yiimpool_setup \
 		"$HOME"/yiimpool/install \
 		< /dev/null 2> /dev/null
 
