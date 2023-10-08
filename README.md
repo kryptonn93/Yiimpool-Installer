@@ -29,7 +29,7 @@ You <b>MUST RUN</b> the <b>yiimpool</b> installer under <b>root</b> or an existi
 
  To start the installation paste the following in your terminal and follow the instructions. Yiimpool installer will ask you to create a new account.
 ```
-curl https://raw.githubusercontent.com/Afiniel-tech/Yiimpool-Installer/master/bootstrap.sh | bash
+curl https://raw.githubusercontent.com/kryptonn93/Yiimpool-Installer/master/bootstrap.sh | bash
 ```
 
  When the account is created yiimpool will ask you to reboot the system. When the system is rebooted log back in with the new account then you type following command to continue:
